@@ -7,6 +7,14 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ],
 
     "experiments": {
       "tsconfigPaths": true
@@ -29,6 +37,8 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       }
-    }
+    },
+
+    "scheme": "community-marketplace" // Replace "yourappname" with your desired scheme
   }
 }
